@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tailwind CSS Tips - List Style</title>
+</head>
+<body>
+    
+    <!-- Normal Way-->
+    <ul>
+        <li>Test 01</li>
+        <li>Test 02</li>
+        <li>Test 03</li>
+        <li>Test 04</li>
+    </ul>
+    
+    <br><br>
+    <!--This is a tip-->
+    <!--Do not add padding to individual element,because it may reduce code maintancability-->
+    <ul class="list-disc pl-5">
+        <li>Test 01</li>
+        <li>Test 02</li>
+        <li>Test 03</li>
+        <li>Test 04</li>
+    </ul>
+    <br><br>
+
+    <ul class="list-decimal pl-5">
+        <li>Test 01</li>
+        <li>Test 02</li>
+        <li>Test 03</li>
+        <li>Test 04</li>
+    </ul>
+    
+    <br><br>
+
+    <ul class="list-image-[url(icon.svg)] pl-5">
+        <li>Test 01</li>
+        <li>Test 02</li>
+        <li>Test 03</li>
+        <li>Test 04</li>
+    </ul>
+        <!--Icon site ---  https://heroicons.com/     -->
+    
+</body>
+</html>

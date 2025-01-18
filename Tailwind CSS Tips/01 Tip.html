@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tailwind CSS Tips -  Flex & gap </title>
+</head>
+<body>
+    <!-- Normal Way--->
+    <div class="flex">
+        <div class="pr-3">Test 01</div>
+        <div class="pr-3">Test 02</div>
+        <div class="pr-3">Test 03</div>
+        <div>Test 04</div>
+    </div>
+    
+    <br><br>
+<br>
+
+    <!--This is a tip--->
+    <!--Do not add padding to individual element,because it may reduce code maintancability--->
+
+    <div class="flex gap-3">
+        <div>Test 01</div>
+        <div>Test 02</div>
+        <div>Test 03</div>
+        <div>Test 04</div>
+    </div>
+
+
+
+        <br><br>
+        <!--example when creating Navigation-->
+        <ul class="flex gap-3">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+    
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tailwind CSS Tips - Modifiers</title>
+</head>
+<body>
+    <br><br>    <br><br>
+    <br><br>
+
+    <ul class="group">
+        <li class="group-hover:bg-green-300 group-hover:rotate-3">Test 01</li>
+        <li>Test 02</li>
+        <li class="group-hover:bg-red-300">Test 03</li>
+        <li>Test 04</li>
+    </ul>
+    
+
+
+    <br><br>    <br><br> <br><br>    <br><br>
+    <ul class="group">
+
+        <ul class="group/name1">
+        <li class="group-hover/name1:bg-blue-300 group-hover/name1:rotate-3">Test 01</li>
+        <li>Test 02</li>
+        <li class="group-hover/name1:bg-yellow-300">Test 03</li>
+        <li>Test 04</li>
+        </ul>
+ <br><br>    <br><br>
+        <ul class="group">
+            <li class="group-hover:bg-green-300 group-hover:rotate-3">Test 01</li>
+            <li>Test 02</li>
+            <li class="group-hover:bg-red-300">Test 03</li>
+            <li>Test 04</li>
+            </ul>
+    </ul>
+</body>
+</html>
